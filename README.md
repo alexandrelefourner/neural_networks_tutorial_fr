@@ -1,25 +1,12 @@
 # Neural Networks Tutorial
 
-A series of notebook to learn how Artificial Neural Networks work, with video support.
+Une série de notebook dédié à l'apprentissage des réseaux de neurones, vidéos à l'appui.
 
+# 1. Les principes des réseaux de neurones.
 
-# 1. Neural Network principles notebook
+L'exercice et sa solution apportent un premier contact avec les blocs élémentaires des réseaux de neurones
 
-The exercice notebook and its solution provide a first touch with the building blocks of low level neural networks.
-
-The video is available [on youtube](https://www.youtube.com/watch?v=XJu-ZzE3sUo).
-
-
-# 2. Your first genetic algorithm
-
-![alt text](ipynb_images/Presentation.jpg)
-
-The notebooks show the creation of a genetic algorithm from scratch to answer [Nicomon's Snek gym environment](https://github.com/nicomon24/Sneks).
-The installation notebook proposes a few cells for Windows and Linux users.
-The solution notebook presents the full code explained.
-
-1. [Gym environment and installation](https://www.youtube.com/watch?v=VEh8nwQtTwE&list=PL_mqLx7AmDzeG5kXYbhllIaLiZIALla3P&index=2)
-
+La vidéo explicative est disponible sur [sur youtube](https://youtu.be/s5X64fmAqUo).
 
 # License
 
