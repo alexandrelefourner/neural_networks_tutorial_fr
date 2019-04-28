@@ -1,4 +1,4 @@
-# Neural Networks Tutorial
+# Tutoriel sur les réseaux de neurones
 
 Une série de notebook dédié à l'apprentissage des réseaux de neurones, vidéos à l'appui.
 
