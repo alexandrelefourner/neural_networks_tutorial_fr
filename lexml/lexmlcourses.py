@@ -39,4 +39,27 @@ def display_activations_functions():
 	plt.axhline(0, color="red", alpha = 0.2);
 	plt.show();
 	
+def test_direction_with_gym_snek(fnc, render=False):
+	import gym
+	import sneks
 	
+	env = gym.make("babysnek-raw-16-v1")
+	
+	res = 0
+	
+	for _ in range(20):
+		obs = env.reset()
+		done = False
+		if(render):
+			env.render()
+		while(not done):
+			act = fnc(obs)
+			obs, r, done, _ = env.step(act)
+			if(render):
+				env.render()
+			res += r
+	
+	if(res != 20):
+		print("Réponse incorrecte. Votre serpent n'a obtenu que "+str(res))
+	else:
+		print("Super! Votre serpent est parvenu à récolter tous les fruits!")
